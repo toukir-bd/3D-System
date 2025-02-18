@@ -280,8 +280,8 @@
 		line-height: 24px;
 	}
 	.btn {
-		height: 55px;
-		line-height: 55px;
+		height: 44px;
+		line-height: 49px;
 	}
 	.single-service-wrap .details h5 {
 		margin-top: 15px;
@@ -436,6 +436,15 @@
 	}
 }
 @media all and (max-width: 991px) {
+	.banner-area-2 .banner-slider .item {
+		background-position: bottom right !important;
+	}
+	.pd-top-90 {
+		padding-top: 40px;
+	}
+	.pd-bottom-90 {
+		padding-bottom: 40px;
+	}
 	.navbar-top ul li {
 		font-size: 12px;
 	}
@@ -567,7 +576,16 @@
 		width: 100%;
 	}
 	.banner-area-2 .banner-inner {
-		padding: 253px 0 235px;
+		padding: 120px 0 120px;
+	}
+	.banner-inner.style-white .title {
+		font-size: 28px;
+		line-height: 41px;
+		margin-bottom: 20px;
+	}
+	.banner-inner.style-white .content {
+		font-size: 15px;
+		line-height: 26px;
 	}
 	.about-area-2 .about-thumb-wrap .img-2 {
 		margin: 0;
@@ -579,7 +597,10 @@
 		padding-bottom: 120px;
 	}
 	.wcu-area-2 {
-		padding-bottom: 120px;
+		padding-bottom: 40px;
+	}
+	.pd-bottom-120 {
+		padding-bottom: 40px;
 	}
 	.wcu-area-2 .thumb {
 		display: none;
@@ -654,7 +675,7 @@
 		margin-top: 30px;
 	}
 	.breadcrumb-area {
-		padding: 196px 0 110px;
+		padding: 65px 0 65px;
 	}
 	.breadcrumb-area .page-title {
 		font-size: 52px;
@@ -712,7 +733,7 @@
 		margin: 0 0 10px 0;
 	}
 	.breadcrumb-area .page-title {
-		font-size: 48px;
+		font-size: 36px;
 	}
 	.banner-slider-main-nav .item img,
 	.banner-slider-main-nav .item {
